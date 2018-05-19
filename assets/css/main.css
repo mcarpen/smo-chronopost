@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'DIN Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Black'), url('../font/DINPro-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Regular'), url('../font/DINPro-Cond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Black'), url('../font/DINPro-CondBlack.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Light'), url('../font/DINPro-CondLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Medium'), url('../font/DINPro-CondMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Light'), url('../font/DINPro-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Medium'), url('../font/DINPro-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro'), url('../font/DINPro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Black Italic'), url('../font/DINPro-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Bold'), url('../font/DINPro-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Bold Italic'), url('../font/DINPro-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Black Italic'), url('../font/DINPro-CondBlackIta.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Bold'), url('../font/DINPro-CondBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Bold Italic'), url('../font/DINPro-CondBoldIta.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Italic'), url('../font/DINPro-CondIta.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Light Italic'), url('../font/DINPro-CondLightIta.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Condensed Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Condensed Medium Italic'), url('../font/DINPro-CondMediIta.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Italic'), url('../font/DINPro-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Light Italic'), url('../font/DINPro-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DIN Pro Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Pro Medium Italic'), url('../font/DINPro-MediumItalic.woff') format('woff');
+}
+
+html, body {
+    font-family: "DIN Pro Regular", sans-serif;
+}
+
+.btn-large {
+    background-color: #009ADF;
+    transition: background-color .2s ease-out;
+}
+
+.btn-large:hover,
+.btn-large:focus {
+    background-color: #DF7900;
+}
+
+nav a {
+    color: #333 !important;
+}
+
+nav ul a {
+    color: #333 !important;
+}
+
+nav ul a:hover {
+    background-color: #009ADF !important;
+    color: #fff !important;
+}
+
+nav .brand-logo {
+    font-size: initial;
+}
+
+.main-navigation {
+    background-color: #fff;
+}
+
+#logo-container img {
+    vertical-align: middle;
+}
+
+#index-banner .separator {
+    position: absolute;
+    bottom: -25px;
+    left: 0
+}
+
+#index-banner .section {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+#index-banner .header,
+#index-banner h1 {
+    font-family: "DIN Pro Bold", sans-serif;
+    color: #fff;
+}
+
+#index-banner h1 {
+    font-size: 5.3rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.header--primary {
+    color: #009ADF;
+}
+
+.header--secondary {
+    color: #DF7900;
+}
+
+.primary {
+    background-color: #009ADF;
+}
+
+.secondary {
+    background-color: #DF7900;
+}
+
+.steps h2 {
+    position: relative;
+}
+
+@media (min-width: 601px) {
+    .steps h2.center--first:first-of-type:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -50%;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(0.25turn, #009ADF, #DF7900);
+    }
+
+    .steps h2.center--second:first-of-type:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -50%;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(0.25turn, #DF7900, #009ADF);
+    }
+}
+
+.icon-block span:hover {
+    cursor: initial;
+}
+
+.icon-block span.primary:hover {
+    background-color: #009ADF;
+}
+
+.icon-block .hashtag {
+    color: #003569;
+}
+
+.counter {
+    position: relative;
+    background-image: linear-gradient(35deg, #009ADF, #006ec4);
+}
+
+.counter .separator-top {
+    position: absolute;
+    top: -1px;
+    left: -50%;
+    transform: scale(-1);
+}
+
+.counter .separator-bottom {
+    position: absolute;
+    bottom: -1px;
+    left: -50%;
+}
+
+.counter .row {
+    margin-bottom: 0;
+}
+
+.counter .section {
+    padding: 10em 0;
+}
+
+.counter .counter-text {
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: "DIN Pro Bold", sans-serif;
+}
+
+@media (max-width: 1150px) {
+    .counter .counter-text {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+.reacts h4 {
+    font-family: "DIN Pro Bold", sans-serif;
+}
+
+.reacts .reacts-hashtag {
+    font-size: 2.50rem;
+    font-family: "DIN Pro Black", sans-serif;
+}
+
+.reacts img {
+    max-width: 100%;
+}
+
+.odometer {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.odometer ul.digits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.odometer ul.digits li.digit {
+    position: relative;
+    float: left;
+    background-color: transparent;
+    font-size: 2em;
+    min-width: 2em;
+    min-height: 2em;
+    line-height: 2em;
+}
+.odometer ul.digits li.digit .cou-item ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: translate(0, 0em);
+    transform: translate(0, 0em);
+    transition: all 1s cubic-bezier(0, 1.2, 1, 1.2);
+}
+.odometer ul.digits li.digit .cou-item ul.goto-5 {
+    -webkit-transform: translateY(-10em);
+    transform: translateY(-10em);
+}
+.odometer ul.digits li.digit .cou-item ul li {
+    display: block;
+    min-width: 2em;
+    min-height: 2em;
+    line-height: 2em;
+}
+.goto-0 {
+    -webkit-transform: translateY(-2em) !important;
+    transform: translateY(-2em) !important;
+}
+.goto-1 {
+    -webkit-transform: translateY(-4em) !important;
+    transform: translateY(-4em) !important;
+}
+.goto-2 {
+    -webkit-transform: translateY(-6em) !important;
+    transform: translateY(-6em) !important;
+}
+.goto-3 {
+    -webkit-transform: translateY(-8em) !important;
+    transform: translateY(-8em) !important;
+}
+.goto-4 {
+    -webkit-transform: translateY(-10em) !important;
+    transform: translateY(-10em) !important;
+}
+.goto-5 {
+    -webkit-transform: translateY(-12em) !important;
+    transform: translateY(-12em) !important;
+}
+.goto-6 {
+    -webkit-transform: translateY(-14em) !important;
+    transform: translateY(-14em) !important;
+}
+.goto-7 {
+    -webkit-transform: translateY(-16em) !important;
+    transform: translateY(-16em) !important;
+}
+.goto-8 {
+    -webkit-transform: translateY(-18em) !important;
+    transform: translateY(-18em) !important;
+}
+.goto-9 {
+    -webkit-transform: translateY(-20em) !important;
+    transform: translateY(-20em) !important;
+}
+
+.page-footer {
+    background-color: #009ADF;
+    font-family: "DIN Pro Bold", sans-serif;
+}
+
+.page-footer .socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-copyright a {
+    color: #ff9600;
+}
